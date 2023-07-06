@@ -13,8 +13,8 @@ function generatePromise(){
 		},1000)
 	
 }
-generatePromise().then(data)=>{
+generatePromise().then((data)=>{
 const divElement=document.getElementById("output")
 divElement.innerText=data;
-}
+})
 
